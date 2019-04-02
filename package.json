@@ -1,0 +1,22 @@
+{
+  "name": "object-validation-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/assert": "^1.4.2",
+    "class-validator": "^0.9.1"
+  },
+  "dependencies": {
+    "class-transformer": "^0.2.0",
+    "reflect-metadata": "^0.1.13"
+  }
+}
